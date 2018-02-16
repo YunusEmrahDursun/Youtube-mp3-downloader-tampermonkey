@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Youtube mp3 downloader
-// @namespace    https://github.com/DeliDoktoru/Youtube-mp3-dowloander
+// @namespace    https://github.com/DeliDoktoru/Youtube-mp3-downloader-tampermonkey
 // @version      0.1
 // @description  Youtube mp3 downloader
 // @author       DeliDoktoru
