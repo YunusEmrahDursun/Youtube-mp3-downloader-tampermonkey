@@ -4,7 +4,8 @@
 // @version      0.1
 // @description  Youtube mp3 downloader
 // @author       DeliDoktoru
-// @match        
+// @match        *://www.youtube.com/*
+// @match        *://www.onlinevideoconverter.com/*
 // @grant        window.close
 // @grant GM_setValue
 // @grant GM_getValue
