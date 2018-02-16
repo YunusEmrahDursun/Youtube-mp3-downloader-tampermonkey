@@ -30,13 +30,14 @@ document.querySelector("#texturl").value=GM_getValue("youtubeurl");
 }
 else if(window.location.href.indexOf("https://www.youtube.com/watch")!==-1 )
 {
-    var input = document.createElement('input');
+     var input = document.createElement('input');
     input.type="button";
     GM_setValue("youtubeurl",window.location.href);
-    input.style.cssText = 'width:100px;height:25px;';
+    input.style.cssText = 'left:50%;position: absolute;width:100px;height:25px;z-index:99999999999';
     input.onclick=function(){ window.open("https://www.onlinevideoconverter.com/tr/mp3-converter", '_blank');};
     input.value="download";
-    document.querySelector("#yt-masthead").appendChild(input);
+
+     document.body.appendChild(input);
 
 }
 
